@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="library">Library</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="tabs">Tabs</string>
+    <string name="library_description">This activity is for listing all of the songs that are in the library.   This should have common music library functionality, such as sorting by song title, artist, or album.  From this screen, you should be able to add songs to a set list.</string>
+    <string name="lyrics_desc">This activity is for displaying the lyrics of a song. This can be done with either a WebView, or perhaps pulling the content in directly by using JSOUP.</string>
+    <string name="now_playing_desc">This activity is for displaying the currently playing song.   There should be common music playing functionality, with the additional features of linking to the lyrics or guitar tablature, as well as a button to automatically search youtube for the music video.   This activity will need to use the MediaPlayer class</string>
+    <string name="set_lists_desc">This activity is for grouping songs together into set lists, or songs that you would like to learn how to play.</string>
+    <string name="guitar_tab_desc">This activity is for displaying the guitar tab or sheet music of the songs that you would like to learn how to play. There are some different ways this might work:  First is to scrape a tab webpage and insert the contents. Ultimate-guitar.com clearly marks there main tab content with a div ID. From what I have researched, JSOUP does a pretty good job of this.  Second option is to provide a basic WebView, and see if it can load the page in screen.  Third and perhaps least shady way is to provide a way to buy, store, and load officially licensed music from the artists themselves. A couple of options for payment processing would be PayPal here SDK and the Android Pay API</string>
 </resources>

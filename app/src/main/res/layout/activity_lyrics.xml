@@ -8,11 +8,7 @@
     tools:context="com.example.android.musicalstructure.LyricsActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#CFD8DC"
-        android:gravity="center"
-        android:padding="128dp"
-        android:text="    This activity is for displaying the lyrics of a song." />
+        style="@style/ActivityDescription"
+        android:text="@string/lyrics_desc" />
 
 </LinearLayout>

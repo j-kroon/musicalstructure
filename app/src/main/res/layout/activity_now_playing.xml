@@ -8,11 +8,7 @@
     tools:context="com.example.android.musicalstructure.NowPlayingActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#CFD8DC"
-
-        android:padding="56dp"
-        android:text="    This activity is for displaying the currently playing song. \n    There should be common music playing functionality, with the additional features of linking to the lyrics or guitar tablature, as well as a button to automatically search youtube for the music video. \n    This activity will need to use the MediaPlayer class" />
+        style="@style/ActivityDescription"
+        android:text="@string/now_playing_desc" />
 
 </LinearLayout>

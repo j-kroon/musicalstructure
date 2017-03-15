@@ -12,7 +12,7 @@
         android:id="@+id/nowPlaying"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Now Playing"
+        android:text="@string/now_playing"
         android:gravity="center"
         android:padding="16dp"
         android:background="#CFD8DC"
@@ -22,24 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
+            style="@style/ContentTile1"
             android:id="@+id/library"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Library"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:padding="56dp"
-            android:background="#B0BEC5"
+            android:text="@string/library"
             />
         <TextView
+            style="@style/ContentTile2"
             android:id="@+id/setLists"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Set Lists"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:padding="56dp"
-            android:background="#90A4AE"/>
+            android:text="Set Lists"/>
 
     </LinearLayout>
 
@@ -48,24 +38,14 @@
         android:layout_height="wrap_content">
 
         <TextView
+            style="@style/ContentTile2"
             android:id="@+id/lyrics"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Lyrics"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:padding="56dp"
-            android:background="#90A4AE"
+            android:text="@string/lyrics"
             />
         <TextView
+            style="@style/ContentTile1"
             android:id="@+id/tabs"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tabs"
-            android:gravity="center"
-            android:layout_weight="1"
-            android:padding="56dp"
-            android:background="#B0BEC5"
+            android:text="@string/tabs"
             />
     </LinearLayout>
 </LinearLayout>

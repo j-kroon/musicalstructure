@@ -8,10 +8,7 @@
     tools:context="com.example.android.musicalstructure.PlaylistActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#CFD8DC"
-        android:padding="128dp"
-        android:text="    This activity is for grouping songs together into set lists, or songs that you would like to learn how to play." />
+        style="@style/ActivityDescription"
+        android:text="@string/set_lists_desc" />
 
 </LinearLayout>
