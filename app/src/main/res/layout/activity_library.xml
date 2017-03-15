@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.LibraryActivity"
+    android:background="#263238">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    This activity is for listing all of the songs that are in the library. \n    This should have common music library functionality, such as sorting by song title, artist, or album.\n    From this screen, you should be able to add songs to a set list."
+        android:padding="128dp"
+        android:background="#CFD8DC" />
+
+</LinearLayout>
